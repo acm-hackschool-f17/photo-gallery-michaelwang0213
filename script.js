@@ -21,7 +21,7 @@ function handleImageClick(event) {
 		target.addClass('selected');
 		target.removeClass('not-selected');
 
-		info.fadeIn(200);
+		info.fadeIn(2000);
 		preview.css('background-image', target.css('background-image'));
 	}
 }
